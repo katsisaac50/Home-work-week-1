@@ -1,4 +1,4 @@
-                /* myStyle.css */
+        /* myStyle.css */
         
         body {
             background-color: #81bed4f8;
@@ -8,6 +8,11 @@
             padding: 20px;
             border: 6px ridge rgb(234, 0, 255);
             line-height: 1.5em;
+        }
+        
+        ul {
+            list-style-type: none;
+            text-align: justify;
         }
         
         .header {
@@ -22,6 +27,7 @@
         h2 {
             background-color: antiquewhite;
             color: black;
+            padding: 3px;
         }
         
         .wonder {
@@ -56,6 +62,7 @@
         .flowers {
             color: black;
             float: right;
+            margin-right: 30px
         }
         
         .flower {
@@ -65,11 +72,10 @@
             height: 200px;
             width: 30%;
             float: right;
-            padding: 5px 20px;
+            padding: 5px 10px;
         }
         
         .row:after {
             content: "";
             display: table;
             clear: both;
-        }
