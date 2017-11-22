@@ -33,6 +33,11 @@
             margin-right: 6px;
             margin-bottom: 6px;
         }
+.row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
         
         .myDiv {
             background-color: #555fd1;
