@@ -1,4 +1,4 @@
-        /* myStyle.css */
+                /* myStyle.css */
         
         body {
             background-color: #81bed4f8;
@@ -33,11 +33,6 @@
             margin-right: 6px;
             margin-bottom: 6px;
         }
-.row:after {
-            content: "";
-            display: table;
-            clear: both;
-        }
         
         .myDiv {
             background-color: #555fd1;
@@ -47,6 +42,7 @@
         
         .good-news {
             margin-left: 200px;
+            float: left;
         }
         
         .contacts {
@@ -59,9 +55,7 @@
         
         .flowers {
             color: black;
-            width: 30%;
             float: right;
-            margin: -930px 1px;
         }
         
         .flower {
@@ -71,6 +65,11 @@
             height: 200px;
             width: 30%;
             float: right;
-            margin: -970px 25px 0px 5px;
             padding: 5px 20px;
+        }
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
         }
