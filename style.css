@@ -25,14 +25,14 @@
             padding: 3px;
         }
         
-        .wonder {
+        .img-wonder {
             border: 5px solid purple;
             height: 203px;
             position: absolute;
-            margin-top: 60px;
+            margin-top: 6px;
             float: left;
-            margin-right: 6px;
-            margin-bottom: 6px;
+            margin-right: 30px;
+            margin-bottom: 10px;
         }
         
         .myDiv {
