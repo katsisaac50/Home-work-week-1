@@ -26,7 +26,7 @@
         }
         
         .img-wonder {
-            border-radius: 350px;
+            border: 5px solid purple;
             height: 203px;
             position: absolute;
             margin-top: 6px;
