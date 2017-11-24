@@ -26,13 +26,13 @@
         }
         
         .img-wonder {
-            border: 5px solid purple;
             height: 203px;
             position: absolute;
             margin-top: 6px;
             float: left;
             margin-right: 30px;
             margin-bottom: 10px;
+            border-radius:350px 5px solid purple;
         }
         
         .myDiv {
